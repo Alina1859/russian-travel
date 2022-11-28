@@ -19,6 +19,7 @@
   .cover__link {
     max-width: 100vw;
     min-height: 640px;
+    height: 100%;
   }
 }
 
@@ -26,6 +27,7 @@
   .cover__link {
     max-width: 100vw;
     min-height: 480px;
+    height: 100%;
   }
 }
 
@@ -34,6 +36,7 @@
   .cover__link {
     max-width: 100vw;
     min-height: 200px;
+    height: 100%;
   }
 }
 
