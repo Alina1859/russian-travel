@@ -1,0 +1,12 @@
+.footer__link-item {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__link-item:visited {
+  color: #fff;
+}
+
+.footer__link-item:hover {
+  opacity: 0.8;
+}
