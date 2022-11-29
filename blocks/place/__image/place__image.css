@@ -3,11 +3,17 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__image {
     align-self: start;
   }
 }
+
+/* @media screen and (max-width: 1023px) {
+  .place__image {
+    align-self: start;
+  }
+} */
 
 @media screen and (max-width: 767px) {
   .place__image {
