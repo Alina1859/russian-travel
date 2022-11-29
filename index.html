@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Russian Trevel</title>
+    <title>Путешествия по России</title>
 </head>
 <body class="root">
 
@@ -13,49 +13,33 @@
 
     <header class="header">
       <div class="header__logo"></div>
-      <nav class="header__navigation">
-        <a href="#" class="header__lang-link">Ru</a>
-        <a href="#" class="header__lang-link">En</a></nav>
+      <div class="header__lang">
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
+      </div>
     </header>
 
     <main class="content">
 
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
-        <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-        <div class="lead__image-container">
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+        <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
+        <figure class="lead__image-container">
           <img src="./images/lead-image.jpg" alt="Девушка лежит в поезде у окна на кровати" class="lead__image">
-          <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
-        <div class="intro__container">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
-          <article class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</article>
-          <ul class="intro__list">
-            <li class="intro__item">
-              <span class="intro__name">Часовых поясов</span>
-              <p class="intro__number">11</p>
-            </li>
-            <li class="intro__item">
-              <span class="intro__name">Объектов природного наследия ЮНЕСКО</span>
-              <p class="intro__number">12</p>
-            </li>
-            <li class="intro__item">
-              <span class="intro__name">Объектов культурного наследия ЮНЕСКО</span>
-              <p class="intro__number">16</p>
-            </li>
-            <li class="intro__item">
-              <span class="intro__name">Природных заповедников</span>
-              <p class="intro__number">105</p>
-            </li>
-            <li class="intro__item">
-              <span class="intro__name">Аэропортов</span>
-              <p class="intro__number">241</p>
-            </li>
-          </ul>
-        </div>
+        <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
+        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+        <ul class="intro__list">
+          <li class="intro__item">Часовых поясов <span class="intro__span">11</span></li>
+          <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
+          <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
+          <li class="intro__item">Природных заповедников <span class="intro__span">105</span></li>
+          <li class="intro__item">Аэропортов <span class="intro__span">241</span></li>
+        </ul>
       </section>
 
       <section class="photo-grid">
@@ -74,13 +58,13 @@
       </section>
 
       <section class="places">
-        <ul class="place-container">
+        <ul class="places__container">
 
           <li class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__webcite">
-              <h4 class="place__url-heading">URL</h4>
-              <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+              <p class="place__url-heading">url</p>
+              <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
             </div>
             <img src="./images/kurshskaya-kosa.jpg" alt="море" class="place__image">
             <div class="place__paragraph-container">
@@ -92,8 +76,8 @@
           <li class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__webcite">
-              <h4 class="place__url-heading">URL</h4>
-              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
+              <p class="place__url-heading">url</p>
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank" >National Geographic</a>
             </div>
             <img src="./images/kolsky.jpg" alt="горы" class="place__image">
             <div class="place__paragraph-container">
@@ -105,8 +89,8 @@
           <li class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__webcite">
-              <h4 class="place__url-heading">URL</h4>
-              <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
+              <p class="place__url-heading">url</p>
+              <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link" target="_blank" >YouTube</a>
             </div>
             <img src="./images/altay.jpg" alt="открытый ноутбук на балке, вокруг лес" class="place__image">
             <div class="place__paragraph-container">
@@ -119,8 +103,8 @@
           <li class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__webcite">
-              <h4 class="place__url-heading">URL</h4>
-              <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+              <p class="place__url-heading">url</p>
+              <a href="https://vk.com/baikalmile" class="place__link" target="_blank" >https://vk.com/baikalmile</a>
             </div>
             <img src="./images/baykal.jpg" alt="лед озера Байкал, покрытый царапинами" class="place__image">
             <div class="place__paragraph-container">
@@ -133,8 +117,8 @@
           <li class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__webcite">
-              <h4 class="place__url-heading">URL</h4>
-              <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+              <p class="place__url-heading">url</p>
+              <a href="http://vodlozero.ru" class="place__link" target="_blank" >http://vodlozero.ru/</a>
             </div>
             <img src="./images/karelya.jpg" alt="вид на реку и лес" class="place__image">
             <div class="place__paragraph-container">
@@ -148,31 +132,32 @@
 
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
-          <div class="cover__overlay"></div>
             <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__link">
-          <a href="https://yandex.ru/maps" class="footer__link-item" target="_blank">Карты</a>
-        </li>
-        <li class="footer__link">
-          <a href="https://yandex.ru/pogoda" class="footer__link-item" target="_blank">Погода</a>
-        </li>
-        <li class="footer__link">
-          <a href="https://rasp.yandex.ru" class="footer__link-item" target="_blank">Расписание</a>
-        </li>
-        <li class="footer__link">
-          <a href="https://calendar.yandex.ru" class="footer__link-item" target="_blank">Календарь</a>
-        </li>
-        <li class="footer__link">
-          <a href="https://travel.yandex.ru" class="footer__link-item" target="_blank">Путешествия</a>
+      <nav class="footer__navigation">
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
           </li>
-      </ul>
+          <li class="footer__item">
+            <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
+          </li>
+          <li class="footer__item">
+            <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
+            </li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2022. Алина Султанова</p>
     </footer>
   </div>

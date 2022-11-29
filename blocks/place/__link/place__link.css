@@ -4,12 +4,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
-  text-decoration: none;
   color: #fff;
 }
 
 .place__link:hover {
-  opacity: 0.8;
+  opacity: .8;
+  transition: .2s linear;
 }
 
 .place__link:visited {

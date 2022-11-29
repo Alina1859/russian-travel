@@ -1,13 +1,12 @@
 .footer__copyright {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
 }
 
 @media screen and (max-width: 767px) {
-  .ooter__copyright {
-    font-size: 14px;
+  .footer__copyright {
     line-height: 1;
   }
 

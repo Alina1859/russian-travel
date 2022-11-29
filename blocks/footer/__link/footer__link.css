@@ -1,25 +1,13 @@
 .footer__link {
-  margin: 0;
-  padding: 0;
-  margin-right: 18px;
-  font-size: 16px;
-  line-height: 1.12;
+  text-decoration: none;
+  color: #fff;
 }
 
-.footer__link:last-child {
-  margin: 0;
-  padding: 0;
-  margin-right: 0px;
+.footer__link:visited {
+  color: #fff;
 }
 
-@media screen and (max-width: 767px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 1;
-    margin-bottom: 32px;
-  }
-
-  .footer__link:last-child {
-    margin-bottom: 48px;
-  }
+.footer__link:hover {
+  opacity: .8;
+  transition: .2s linear;
 }

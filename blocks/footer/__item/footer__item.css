@@ -1,0 +1,25 @@
+.footer__item {
+  margin: 0;
+  padding: 0;
+  margin-right: 18px;
+  font-size: 16px;
+  line-height: 1.12;
+}
+
+.footer__item:last-child {
+  margin: 0;
+  padding: 0;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__item {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+
+  .footer__item:last-child {
+    margin-bottom: 48px;
+  }
+}
