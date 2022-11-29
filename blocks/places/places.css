@@ -20,3 +20,9 @@
     padding: 64px 0px 66px 0px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+  }
+}
